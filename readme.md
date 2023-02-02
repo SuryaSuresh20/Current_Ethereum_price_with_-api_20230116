@@ -1,6 +1,4 @@
-Script that retrieves the current Ether price from an API
+Script that retrieves the current Ether price from an API.
+=> The script should also display the price in different fiat currencies and displays it on a web page. 
 
-	1. displays it on a web page. 
-	2. The script should also display the price in different fiat currencies.
-  
-  Concept Learnt : Ethereum concept, API technology and currency mapping.
+Concept Learnt : Ethereum concept, API technology and currency mapping.
