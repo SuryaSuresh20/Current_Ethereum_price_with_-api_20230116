@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
+
+label{
+    margin: 5px;
+}
+
+
+
+#currency{
+    font-size: 25px;
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    border: 3px solid beige;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#currency i{
+    font-size: 25px;
+    background: #262626;
+    padding: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    justify-content: center;
+}
+
+#currency i:hover{
+    background: #ff00bb;
+    transform: translateY(-5px);
+}
+
+
+
+#currencyStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.box{
+    border: 3px solid beige;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    padding: 20px;
+    
+}
+
+.box:hover{
+    background: #6f00ff;
+    transform: translateY(-5px);
+}
+
+#ET{
+    text-align:center
+}
+
+.space{
+    margin-left: 30%;
+}
+
+#errorHandling{text-align:center}
+
+.heading{text-align:center}

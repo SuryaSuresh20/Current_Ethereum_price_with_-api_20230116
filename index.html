@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e7b209e158.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!---------------------------------CoinGecko------------------------->
+    <div id="currency">
+        <div id="ET">
+            <i class="fa-brands fa-ethereum"></i>
+            <label>Ethereum Price by CoinGecko</label>
+        </div>
+        
+            <div id="currencyStyle">
+                <div class="box">
+                <label class="space">INR</label><br>
+                <label id="CG-inr"></label>
+                </div>
+
+                <div  class="box">
+                <label class="space">USD</label><br>
+                <label id="CG-usd"></label>
+                </div>
+
+                <div class="box">
+                <label class="space">GBP</label><br>
+                <label id="CG-gbp"></label>
+                </div>
+
+                <div class="box">
+                <label class="space"> EUR</label><br>
+                <label id="CG-eur"></label> 
+                </div>
+
+                <div class="box">
+                <label class="space">JPY</label><br>
+                <label id="CG-jpy"></label>
+                </div>
+            </div>
+        <div id="errorHandlingCoinGecko"> </div> 
+    </div>  
+
+<!---------------------------cryptocompare--------------->
+    <div id="currency">
+        <div id="ET">
+            <i class="fa-brands fa-ethereum"></i>
+            <label>Ethereum Price by CryptoCompare</label>
+        </div>
+        
+            <div id="currencyStyle">
+                <div class="box">
+                <label class="space">INR</label><br>
+                <label id="CC-inr"></label>
+                </div>
+
+                <div  class="box">
+                <label class="space">USD</label><br>
+                <label id="CC-usd"></label>
+                </div>
+
+                <div class="box">
+                <label class="space">GBP</label><br>
+                <label id="CC-gbp"></label>
+                </div>
+
+                <div class="box">
+                <label class="space"> EUR</label><br>
+                <label id="CC-eur"></label> 
+                </div>
+
+                <div class="box">
+                <label class="space">JPY</label><br>
+                <label id="CC-jpy"></label>
+                </div>
+            </div>
+        <div id="errorHandlingCryptoCompare"></div> 
+    </div>  
+     
+    <script src="crpto.js"></script>
+</body>
+</html>
